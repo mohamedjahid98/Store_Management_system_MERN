@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#scrollUpButton {
+    display: none; /* Hide the button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Change color as needed */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #scrollUpButton:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
